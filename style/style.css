@@ -1,0 +1,94 @@
+.intro {
+  background-image: url(../assets/images/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar * {
+  color: white !important;
+}
+
+.navbar-brand {
+  margin-right: 142px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  margin-top: 200px;
+}
+
+.hero h1,
+.hero p {
+  color: white;
+}
+
+.hero h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+.btn-warning {
+  margin-top: 50px;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+  padding: 15px 55px;
+  color: #1a1917;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.the-story {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  text-align: center;
+}
+
+.the-story h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .hero {
+    margin-top: 100px;
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
